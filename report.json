@@ -1,0 +1,21 @@
+{
+    "url": "http://testphp.vulnweb.com",
+    "uses_https": false,
+    "security_headers": {
+        "Content-Security-Policy": false,
+        "X-Frame-Options": false,
+        "Strict-Transport-Security": false,
+        "X-Content-Type-Options": false,
+        "Referrer-Policy": false
+    },
+    "forms_insecure": [
+        "search.php?test=query"
+    ],
+    "cookie_issues": [],
+    "html_findings": {
+        "password_keywords": [],
+        "software_versions": [
+            "HTML 4.01"
+        ]
+    }
+}
